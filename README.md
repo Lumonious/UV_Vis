@@ -1,44 +1,49 @@
-# UV-Visible Spectroscopy in Computational Chemistry
-
-This repository contains the computational results and analysis of UV-Visible spectra for a series of conjugated cyclic dienes using quantum chemical methods.
-
+# Excited State Energy Calculation for 4-(2,5-Dimethyl-1-pyrrolyl)benzonitrile (DMABN)
+This repository contains quantum chemical calculations of excited state energies and UV-Vis spectral data for the molecule DMABN (4-(2,5-Dimethyl-1-pyrrolyl)benzonitrile), using computational methods to understand electronic transitions.
 
 
-# Project Overview
-This project focuses on the computational determination of UV-Vis absorption spectra for the following molecules:
+# 🧪 Project Overview
+The project investigates the excited states of DMABN, a donor-acceptor type molecule, using quantum chemical calculations. The goal is to identify HOMO-LUMO transitions and compare calculated excitation energies with experimental UV-Vis data.
 
-1,3-Cyclopentadiene
+# 🛠 Methodology
 
-1,3-Cyclohexadiene
+# 🧬 Geometry Optimization
+Performed using standard optimization techniques in computational chemistry (software and method not specified in the slides—please update if known).
 
-1,3-Cycloheptadiene
+# ⚡ Excited State Energy Calculations
+Analysis of:
 
-1,3-Cyclooctadiene
+HOMO → LUMO transition (orbital 54 → 55)
 
-Each compound was optimized and subjected to UV-Vis calculations using quantum chemical methods, with water as the solvent.
+Singlet-A Excited State 2: 4.8930 eV (253.39 nm)
 
-# Methodology
-# Geometry Optimization
-Performed using [Insert Software and Method – e.g., Gaussian with B3LYP/6-31G(d)].
+# 📊 Results Summary
+Calculated Peaks:
 
-# UV-Vis Spectrum Calculation
-Carried out in water solution to simulate realistic solvent effects.
+First Peak: 351 nm
 
-# Results
+Second Peak: 230 nm
 
-Each compound’s UV-Vis spectrum is presented and compared with available literature values. The spectral shifts observed with increasing ring size offer insights into conjugation and electronic transitions.
+Key Transition:
 
-# References
+HOMO to LUMO transition at angle 160°, resulting in the major excitation at 4.8930 eV
 
-A full list of references used for comparison and methodology validation is available in the final slide of the presentation.
+Literature Comparison:
 
-# Files
-HW5_NurefşanNY.pptx: Presentation file including all spectra and comparison data.
+UV-Vis spectrum data obtained from literature was compared to validate the computational findings.
 
-# Objectives
-Apply computational chemistry tools to predict electronic transitions.
+# 🧾 File Contents
+HW6_Nurefsan_280102002.pptx: Full presentation with molecular structures, calculated data, orbital transitions, graphs, and comparison with literature.
 
-Understand the cerrelation between structure and UV-Vis spectral behavior.
+# 📚 References
+Literature data used for UV-Vis comparison can be found in the final slide of the presentation.
 
-Compare computational data with experimental/literature values for validation.
+# 🎯 Learning Objectives
+Understand how molecular orbitals influence UV-Vis spectra.
+
+Predict excitation energies using quantum chemistry.
+
+Validate computational data against experimental references.
+
+
 
